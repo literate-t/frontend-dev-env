@@ -5,7 +5,7 @@ export default async function request(method, url, data, headers) {
     method,
     url,
     data,
-    headers
+    headers,
   });
 
   return result.data;
